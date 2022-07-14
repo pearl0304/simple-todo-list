@@ -1,7 +1,7 @@
 ### Simple Todo Lsit
 1. Clock fuction 
-2. Write a task that you will do
-3. If you done some task, Click the button! The task will delete
+2. Write a task that you will do.
+3. If you done some task, Click the button! The task will delete.
 
 
 ### Used Skill
