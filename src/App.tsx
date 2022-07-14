@@ -1,17 +1,15 @@
-import React, { FC, useState, ChangeEvent, FormEventHandler } from "react";
+import React, { FC } from "react";
 import { Todoform } from "./Components/todoform";
 import { Clock } from "./Components/clock";
 import { Quotes } from "./Components/quotes";
-import "./App.css";
+import "./css/App.css";
 
 const App: FC = () => {
   return (
     <div className="App">
-      <div className="container main">
+      <div className="container">
         <Clock />
         <Todoform />
-      </div>
-      <div className="container sub">
         <Quotes />
       </div>
     </div>

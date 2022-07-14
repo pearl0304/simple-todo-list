@@ -1,0 +1,61 @@
+.todo-wrap {
+  margin-bottom: 10px;
+  width: 400px;
+  height: 100%;
+}
+
+.todo-form {
+  height: 30px;
+  line-height: 30px;
+}
+
+.todo-form input {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-right: 10px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.todo-form input:first-child {
+  width: 200px;
+}
+
+.todo-form button {
+  height: 30px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.todo-form button p {
+  margin: 0 5px 0 5px;
+}
+
+.todo-list-container {
+  width: 400px;
+  margin-top: 40px;
+}
+
+.todo-list-container table {
+  width: 400px;
+  height: auto;
+  table-layout: fixed;
+  word-break: break-all;
+}
+
+.todo-list-container table tr {
+  width: 400px;
+  height: 30px;
+}
+
+.todo-list-container table tr:first-child {
+  background-color: #000;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,4 +1,3 @@
-import React, { MouseEvent } from "react";
 import { TodoType } from "../interfaces/interfaces";
 
 interface TodoListProps {
@@ -8,17 +7,19 @@ interface TodoListProps {
 
 export const Todolist = ({ list, completedTaks }: TodoListProps) => {
   return (
-    <li>
-      <span className="task">{list.task}</span>
-      <span className="date">{list.date}</span>
-      <button
-        className="done-btn"
-        onClick={() => {
-          completedTaks(list.id);
-        }}
-      >
-        ✔
-      </button>
-    </li>
+    <tr>
+      <td>{list.task}</td>
+      <td>{list.date}</td>
+      <td>
+        <button
+          className="done-btn"
+          onClick={() => {
+            completedTaks(list.id);
+          }}
+        >
+          <p>✔</p>
+        </button>
+      </td>
+    </tr>
   );
 };

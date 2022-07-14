@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import "../css/clock.css";
 import moment from "moment";
 export const Clock = () => {
   const [time, setTime] = useState(moment());

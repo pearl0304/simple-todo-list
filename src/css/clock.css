@@ -1,0 +1,7 @@
+.clock {
+  margin-bottom: 30px;
+}
+.clock .time {
+  font-size: 100px;
+  font-weight: bold;
+}

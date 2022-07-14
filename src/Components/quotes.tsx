@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
 import { quotes } from "../database/quotes";
 import { QuoteType } from "../interfaces/interfaces";
+import "../css/quotes.css";
 
 export const Quotes = () => {
   const quote: QuoteType = {
@@ -10,8 +10,8 @@ export const Quotes = () => {
 
   return (
     <div className="quotes-container">
-      <span>{quote.quote}</span>
-      <span>{quote.author}</span>
+      <p>{quote.quote}</p>
+      <p>{quote.author}</p>
     </div>
   );
 };
